@@ -1,6 +1,4 @@
 import UIKit
-import CGeometry
-import HandyOperators
 
 public final class SimplePDFViewController: UIViewController {
 	/// used for displaying the PDF and scrolling/zooming around

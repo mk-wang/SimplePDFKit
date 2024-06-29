@@ -1,5 +1,4 @@
 import Foundation
-import CGeometry
 
 public protocol SimplePDFDocument {
 	associatedtype Page: SimplePDFPage

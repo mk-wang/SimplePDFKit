@@ -1,6 +1,4 @@
 import PDFKit
-import CGeometry
-import HandyOperators
 
 public final class PDFKitDocument: SimplePDFDocument {
 	let wrapped: PDFDocument

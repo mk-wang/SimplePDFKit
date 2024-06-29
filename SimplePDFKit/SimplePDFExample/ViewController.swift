@@ -21,8 +21,8 @@ class ViewController: UIViewController {
 	}
 	
 	private func loadPDF() {
-		let url = Bundle.main.url(forResource: "example easy", withExtension: "pdf")!
-		let document = try! PDFKitDocument(at: url)
+		let url = Bundle.main.url(forResource: "2", withExtension: "pdf")!
+		let document = try! PDFiumDocument(at: url)
 		pdfController.display(try! document.page(0))
 	}
 }
